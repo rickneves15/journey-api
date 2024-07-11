@@ -1,4 +1,4 @@
-# Journey API Documentation
+# Journey API
 
 The Journey API is a helpful tool that makes it easy to manage group trip details. It helps you confirm participants, create activities, generate links, and share trip details with everyone. It's like a digital planner that keeps everything organized and ensures everyone is on the same page
 
