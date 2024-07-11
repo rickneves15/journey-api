@@ -12,6 +12,8 @@ import { createLink } from './routes/create-link'
 import { createTrip } from './routes/create-trip'
 import { getActivities } from './routes/get-activity'
 import { getLinks } from './routes/get-links'
+import { getParticipant } from './routes/get-participant'
+import { getParticipants } from './routes/get-participants'
 
 const app = fastify()
 
@@ -29,6 +31,8 @@ app.register(createActivity)
 app.register(getActivities)
 app.register(createLink)
 app.register(getLinks)
+app.register(getParticipants)
+app.register(getParticipant)
 
 app.listen({ port: env.PORT }).then(() => {
   console.log('Server running!')
