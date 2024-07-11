@@ -44,5 +44,5 @@ app.register(getTripDetails)
 app.register(updateTrip)
 
 app.listen({ port: env.PORT }).then(() => {
-  console.log('Server running!')
+  console.log(`Server listening on port ${env.PORT}`)
 })

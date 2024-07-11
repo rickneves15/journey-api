@@ -29,15 +29,6 @@ The Journey API is built using the following technologies and libraries:
 
 ## Routes
 
-- Confirm Participant
-- Confirm Trip
-- Create Activity
-- Create Invite
-- Create Link
-- Create Trip
-- Get Activity
-- Get Links
-- Get Participant
-- Get Participants
-- Get Trip Details
-- Update Trip
+- [x] Confirm participant (`GET /participants/:participantId/confirm`);
+- [x] Confirm participant (`GET /trips/:tripId/confirm`);
+- [x] Create activity (`POST /trips/:tripId/activities`);
